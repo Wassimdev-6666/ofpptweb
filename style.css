@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+header{
+    background-color: rgb(12, 39, 102);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ ul li{
+    display: inline-block;
+    padding: 20px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#taille1{
+    width: 500px;
+    height: 500px;
+    border: 8px solid rgb(12, 39, 102);
+}
+.parent1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+   
+    
+}
+.parent2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-left: 20px;
+    
+    
+}
+.child{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+    width: 30%;
+    height: 30%;
+    padding-left: 10px;
+    text-align: center;
+}
+.parent3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.taille1 {
+    width: 200px;
+    height: 200px;
+}
+
+.parent4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+.taille3 {
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+}
+
+
+.child1{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    padding: 10px; 
+}
+.section{
+    background-image: url("reviews-bg.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+#cli{
+    width: 60px;
+}
+.article{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.child3{
+    text-align: center;
+}
+.d1{
+    background-image:url(booking-bg.jpg);
+    height:800px;
+}
+    
+footer{
+    background-color: rgb(12, 39, 102);
+}
+@media screen and (max-width :500px) {
+    header{
+        display: block;
+    }
+    .parent1{
+        display: block
+    }
+    .child{
+        width: 100%;
+        height: 70%;
+    }
+    .parent2{
+        display: block;
+    }
+    .child{
+        width: 100%;
+        height: 70%;
+    }
+    .parent4{
+        display: block;
+    }
+    .child1{
+        width: 100%;
+        height: 70%;
+    }
+    .parent3{
+        display: block;
+    }
+    .child3{
+        width: 100%;
+        height: 70%;
+    }
+    #cli{
+        width: 60px;
+    }
+    
+}
